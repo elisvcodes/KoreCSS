@@ -1,0 +1,9 @@
+{
+  "name": "KoreCSS",
+  "version": "1.0.0",
+  "description": "The CSS Framework for busy people.",
+  "main": "index.js",
+  "repository": "https://github.com/elisvcodes/KoreCSS",
+  "author": "Eli Sultanov",
+  "license": "MIT"
+}
