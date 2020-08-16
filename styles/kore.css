@@ -1,0 +1,474 @@
+/*
+* KoreCSS by https://github.com/elisvcodes
+* KoreCSSs: v1.0,
+* MIT
+* Copyright 2020
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 10px;
+    position: relative;
+}
+#toggle {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 1.3rem;
+}
+
+#toggle svg {
+    color: white;
+}
+.logo {
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
+.menu {
+    display: none;
+}
+
+.menu a li{
+    font-size: 1.2rem;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.active {
+    display: block;
+}
+
+@media (min-width:768px) {
+    .navbar {
+        height: 70px;
+    }
+
+    .logo {
+        margin: auto 0;
+        font-size: 2rem;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: auto 0; 
+        -webkit-box-pack: end; 
+            -ms-flex-pack: end; 
+                justify-content: flex-end;       
+    }
+    .menu a li {
+        padding-top: 15px;
+        padding-bottom:0;
+        margin: 0 10px;
+        letter-spacing: 0.2rem;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
+
+/* Hero Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #eee;
+    color: #212529;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 25px 0;
+
+}
+
+.content h1 {
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.content p {
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.content button {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) {
+    .content h1 {
+        font-size: 4.7rem;
+    }
+
+    .content p {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.column {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 725px;
+    }
+
+    .column {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    }
+}
+
+@media(min-width:990px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+form {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+label {
+    display: block;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=date],
+input[type=number],
+input[type=tel],
+input[type=search],
+input[type=url],
+select {
+    height: 38px;
+    line-height: 38px;
+    padding: 0 12px;
+    width: 100%;
+    border: 1px solid #ced4da;
+    width: 100%;
+    font-size: 1.4rem;
+    border-radius: 4px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #242423;
+    outline: 0;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    font-size: 1.8rem;
+    border-radius: 4px;
+}
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.btn {
+    display: inline-block;
+    height: 34px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0.14rem solid #ced4da;
+    padding: 0 30px;
+    border-radius: 2px;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+    line-height: 34px;
+    table-layout: fixed;
+}
+
+
+
+.btn:hover {
+    border: 0.11rem solid #343a40;
+}
+
+.btn-black {
+    border: none;
+    background-color: #212529;
+    color: white;
+}
+
+a.btn.btn-black {
+    color: white;
+}
+
+.btn-black:hover {
+    border: none;
+    background-color: #343a40;
+}
+
+.btn-red {
+    border: none;
+    background-color: #f94144;
+
+    color: white;
+}
+
+a.btn.btn-red {
+    color: white;
+}
+
+.btn-red:hover {
+    border: none;
+    background-color: #e71d36;
+}
+
+.btn-green {
+    border: none;
+    background-color: #99cc33;
+    color: white;
+}
+
+a.btn.btn-green {
+    color: white;
+}
+
+.btn-green:hover {
+    border: none;
+    background-color: #669900;
+}
+
+.btn-blue {
+    border: none;
+    background-color: #00509d;
+    color: white;
+}
+
+a.btn.btn-blue {
+    color: white;
+}
+
+.btn-blue:hover {
+    border: none;
+    background-color: #003f88;
+}
+
+.btn-purple {
+    border: none;
+    background-color: #662e9b;
+    color: white;
+}
+
+a.btn.btn-purple {
+    color: white;
+}
+
+.btn-purple:hover {
+    border: none;
+    background-color: #540d6e;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
+
+
+/* Utils
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bg-light {
+    background-color: #fff;
+    color: #242423;
+}
+
+.bg-light a {
+    color: #242423;
+}
+
+.bg-dark {
+    background-color: #242423;
+    color: white;
+}
+
+.bg-dark a {
+    color: #fff;
+}
+
+.column-gap {
+    -webkit-column-gap: 0.3rem;
+       -moz-column-gap: 0.3rem;
+            column-gap: 0.3rem;
+
+}
+
+.full-width {
+    max-width: 100%;
+}
+
+.mgt-1 {
+    margin-top: 5px;
+}
+
+.mgt-2 {
+    margin-top: 10px;
+}
+
+.mgt-3 {
+    margin-top: 15px;
+}
+
+.mgt-4 {
+    margin-top: 20px;
+}
+
+.mgt-5 {
+    margin-top: 25px;
+}
+
+.mgb-1 {
+    margin-bottom: 5px;
+}
+
+.mgb-2 {
+    margin-bottom: 10px;
+}
+
+.mgb-3 {
+    margin-bottom: 15px;
+}
+
+.mgb-4 {
+    margin-bottom: 20px;
+}
+
+.mgb-5 {
+    margin-bottom: 25px;
+}
+
+.mgl-1 {
+    margin-left: 5px;
+}
+
+.mgl-2 {
+    margin-left: 10px;
+}
+
+.mgl-3 {
+    margin-left: 15px;
+}
+
+.mgl-4 {
+    margin-left: 20px;
+}
+
+.mgl-5 {
+    margin-left: 25px;
+}
+
+.mgr-1 {
+    margin-right: 5px;
+}
+
+.mgr-2 {
+    margin-right: 10px;
+}
+
+.mgr-3 {
+    margin-right: 15px;
+}
+
+.mgr-4 {
+    margin-right: 20px;
+}
+
+.mgr-5 {
+    margin-right: 25px;
+}

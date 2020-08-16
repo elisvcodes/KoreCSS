@@ -1,0 +1,60 @@
+.grid .column {
+    background-color: gray;
+    color: #fff;
+    margin-bottom: 1%;
+    padding: 5px 0; 
+    font-size: 18px;
+}
+
+.grid .two-columns {
+    background-color: gray;
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 18px;
+    margin-bottom: 1%;
+}
+
+
+
+.grid .three-columns {
+    background-color: gray;
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 18px;
+    margin-bottom: 1%;
+
+}
+
+
+
+.grid .four-columns {
+    background-color: gray;
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 18px;
+    margin-bottom: 1%;
+
+}
+
+
+
+
+.grid .five-columns {
+    background-color: gray;
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 18px;
+    margin-bottom: 1%;
+
+}
+
+
+
+.grid .six-columns {
+    background-color: gray;
+    color: #fff; 
+    padding: 5px 0; 
+    font-size: 18px;
+    margin-bottom: 1%;
+
+}
