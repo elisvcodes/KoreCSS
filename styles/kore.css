@@ -24,7 +24,6 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;
 }
 
 
@@ -389,10 +388,8 @@ a.btn.btn-purple {
 
 }
 
-.full-width {
-    max-width: 100%;
-}
 
+/* MARGINS */
 .mgt-1 {
     margin-top: 5px;
 }
@@ -470,5 +467,88 @@ a.btn.btn-purple {
 }
 
 .mgr-5 {
+    margin-right: 25px;
+}
+
+
+/* PADDINGS */
+
+.pdt-1 {
+    margin-top: 5px;
+}
+
+.pdt-2 {
+    margin-top: 10px;
+}
+
+.pdt-3 {
+    margin-top: 15px;
+}
+
+.pdt-4 {
+    margin-top: 20px;
+}
+
+.pdt-5 {
+    margin-top: 25px;
+}
+
+.pdb-1 {
+    margin-bottom: 5px;
+}
+
+.pdb-2 {
+    margin-bottom: 10px;
+}
+
+.pdb-3 {
+    margin-bottom: 15px;
+}
+
+.pdb-4 {
+    margin-bottom: 20px;
+}
+
+.pdb-5 {
+    margin-bottom: 25px;
+}
+
+.pdl-1 {
+    margin-left: 5px;
+}
+
+.pdl-2 {
+    margin-left: 10px;
+}
+
+.pdl-3 {
+    margin-left: 15px;
+}
+
+.pdl-4 {
+    margin-left: 20px;
+}
+
+.pdl-5 {
+    margin-left: 25px;
+}
+
+.pdr-1 {
+    margin-right: 5px;
+}
+
+.pdr-2 {
+    margin-right: 10px;
+}
+
+.pdr-3 {
+    margin-right: 15px;
+}
+
+.pdr-4 {
+    margin-right: 20px;
+}
+
+.pdr-5 {
     margin-right: 25px;
 }
