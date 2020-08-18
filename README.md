@@ -1,5 +1,6 @@
 # KoreCSS
 
+![KoreCSS LOGO](https://i.imgur.com/uXEDDzc.png)
 
 
 # Why Use Kore?
