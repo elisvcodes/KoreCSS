@@ -272,15 +272,14 @@ textarea {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .btn {
     display: inline-block;
-    height: 34px;
+    height: 38px;
     cursor: pointer;
     background-color: #fff;
     border: 0.14rem solid #ced4da;
     padding: 0 30px;
     border-radius: 2px;
-    margin: 1rem 0;
     font-size: 1.3rem;
-    line-height: 34px;
+    line-height: 38px;
     table-layout: fixed;
 }
 
